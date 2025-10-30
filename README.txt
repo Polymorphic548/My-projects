@@ -1,4 +1,9 @@
 # My-projects
+//this is a code to simulate optical distortion due a non rotating black hole which uses schwarzchild meterics and geodiscs to 
+  render a 720*720 resolution black hole image, the distotred image is only of a non volumetric i.e is planar accretion disc.
+  The user can input the camera angle and mass of the blackhole.The diffrential equations are solved using RK4.
+  this is a research work based on the program. (https://drive.google.com/file/d/17qGLO51vcSFm9vf5WIz6xzuN7TMSciXB/view?usp=drive_link)
+__________________________________________________________________________________________________________________________________________
 
 #for this to work following is required 
 #compiler: mnvs 19.4xx  
@@ -42,5 +47,6 @@ ________________________________________________________________________________
 #4.cmake ..   
 #5.cmake --build .    
 #6../bin/"paste the .exe file adress here found in bin folder"    this is to run project
+
 
 #warning!!!: mismatch in compiler version, cmake version or sfml version can cause error regarding imgui syntax
