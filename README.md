@@ -1,5 +1,9 @@
 # My-projects
-
+//this is a code to simulate optical distortion due a non rotating black hole which uses schwarzchild meterics and geodiscs to 
+  render a 720*720 resolution black hole image, the distotred image is only of a non volumetric i.e is planar accretion disc.
+  The user can input the camera angle and mass of the blackhole.The diffrential equations are solved using RK4.
+  this is a research work based on the program. (https://drive.google.com/file/d/17qGLO51vcSFm9vf5WIz6xzuN7TMSciXB/view?usp=drive_link)
+_________________________________________________________________________
 #for this to work following is required 
 #compiler: mnvs 19.4xx  
 #Cmake 3.18 or higher 
@@ -37,7 +41,7 @@ ________________________________________________________________________________
 #open project file on terminal then... 
 #1.mkdir build   (makes a build file)
 #2. $env:SFML_DIR=" path_of_smfl"  
-{#example: $env:SFML_DIR="C:\Users\swastik\Downloads\SFML-3.0.2\lib\cmake\SFML" }[this sets envormental variable ]  
+{#example: $env:SFML_DIR="C:\Users\swastik\Downloads\SFML-3.0.2\lib\cmake\SFML" } [this sets envormental variable ]  
 #3.cd build  
 #4.cmake ..   
 #5.cmake --build .    
